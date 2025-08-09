@@ -13,10 +13,10 @@ const state = reactive({
   collapsed: {},
 });
 
-const NODE_W = 160;
-const NODE_H = 60;
+const NODE_W = 460;
+const NODE_H = 160;
 const LEVEL_V_SPACING = 100;
-const SIBLING_H_SPACING = 50;
+const SIBLING_H_SPACING = 60;
 
 let stage, linksLayer, nodesLayer;
 
@@ -132,7 +132,7 @@ function render() {
       height: NODE_H,
       fill: '#fff',
       stroke: 'black',
-      cornerRadius: 8,
+      cornerRadius: 20,
     }));
     group.add(new Konva.Text({
       text: node.title,
