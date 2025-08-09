@@ -1,0 +1,23 @@
+{
+  "name": "konva-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "konva": "^9.3.22",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.13",
+    "vue-konva": "^3.2.2",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "vite": "^6.3.1"
+  }
+}
